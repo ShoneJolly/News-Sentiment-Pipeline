@@ -1,9 +1,13 @@
 # News Sentiment Analysis & Visualization Pipeline (AWS)
 This project is a fully serverless, scalable pipeline for analyzing the sentiment of real-time news articles and visualizing trends in a web dashboard. Using AWS services like Lambda, EventBridge, RDS (PostgreSQL), S3, ECS Fargate, and Docker, it automatically:
-  i. Fetches the latest news every 5 minutes from a News API
-  ii. Analyzes sentiment using VADER NLP
-  iii. Stores structured sentiment data in S3 bucket as JSON file and PostgreSQL
-  iv. Visualizes insights in an interactive dashboard hosted on ECS
+
+Fetches the latest news every 5 minutes from a News API
+
+Analyzes sentiment using VADER NLP
+
+Stores structured sentiment data in S3 bucket as JSON file and PostgreSQL
+
+Visualizes insights in an interactive dashboard hosted on ECS
 
 This architecture is designed to provide real-time, automated sentiment monitoring for current events and trending topics.
 
